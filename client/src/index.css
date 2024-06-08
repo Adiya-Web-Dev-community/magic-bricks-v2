@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .custom-shape {
+    top: auto;
+    bottom: 0;
+    width: 100%;
+    margin: auto 0;
+    position: absolute;
+    height: fit-content;
+    transform: scaleX(-1);
+  }
+
+  .custom-shape svg {
+    height: 500px;
+    display: block;
+    width: calc(300% + 1.3px);
+  }
+
+  @media screen and (min-width: 1024px) {
+    .custom-shape {
+      top: auto;
+      bottom: 0;
+    }
+
+    .custom-shape svg {
+      height: 375px;
+      width: calc(150% + 1.3px);
+    }
+  }
+
+  .custom-shape .shape-fill {
+    fill: #67e8f9;
+  }
+}

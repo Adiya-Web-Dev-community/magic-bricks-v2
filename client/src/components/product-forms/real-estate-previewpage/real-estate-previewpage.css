@@ -1,0 +1,160 @@
+.real-estate-form-preview-wrapper {}
+
+.real-estate-form-preview-wrapper > .real-estate-form-preview-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.real-estate-form-preview-wrapper > .real-estate-form-preview-header > h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.real-estate-form-preview-wrapper > .real-estate-form-preview-header > h2 > button{
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.property-form-preview-property-details {
+    margin-top: 50px;
+}
+
+.property-form-preview-property-details h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.villa-details-r2 {
+    margin-top: 5rem;
+    height: 80vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.villa-corousel-current-img {
+    width: 73%;
+    /* border: 1px solid red; */
+}
+
+.villa-corousel-current-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.villa-corousel-all-img {
+    width: 25%;
+    height: 100%;
+    overflow-y: auto;
+    /* border: 1px solid red; */
+}
+
+.villa-corousel-all-img img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.property-form-preview-property-additional-info>h4 {
+    margin-top: 30px;
+}
+
+.property-form-preview-aminities {
+    margin-top: 30px;
+}
+
+.property-form-preview-aminities h4 span img {
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.property-form-preview-aminities .facility-outer-wrap .facility-inner-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.property-form-preview-aminities .facility-outer-wrap .facility-inner-wrap section {
+    padding: 0.7rem 0.5rem 0.5rem 0.5rem;
+    border: 1px solid rgb(218, 225, 241);
+    background-color: rgb(238, 240, 244);
+}
+
+.property-form-preview-aminities .facility-outer-wrap .facility-inner-wrap section h6 {
+    text-transform: uppercase;
+    color: rgb(3, 3, 116);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.preview-property-post-btn-wrapper{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.preview-property-post-btn{
+    border: none;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.preview-property-post-btn:hover{
+    background-color: rgb(33, 33, 33);
+}
+
+.why-invest-here-ul li{
+    margin-top: 15px;
+}
+
+.real-estate-form-preview-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.real-estate-form-preview-header > h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.real-estate-form-preview-header > h2 > button{
+    border: none;
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.preview-property-post-btn-wrapper{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.preview-property-post-btn{
+    border: none;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.preview-property-post-btn:hover{
+    background-color: rgb(33, 33, 33);
+}
