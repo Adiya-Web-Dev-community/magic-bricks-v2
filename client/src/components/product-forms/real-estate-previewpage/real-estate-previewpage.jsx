@@ -64,8 +64,8 @@ const RealEstatePreviewPage = ({
               {propertyData.postedOn || "---"}
             </p>
           </section>
-          <p className="villa-details-table-dummy-border"></p>
-          <section>
+          {/* <p className="villa-details-table-dummy-border"></p> */}
+          {/* <section>
             <p>Total Shares</p>
             <p className="villa-details-table-value">
               {propertyData.totalShares || "---"}
@@ -78,11 +78,11 @@ const RealEstatePreviewPage = ({
               {propertyData.availableShares || "---"}
             </p>
           </section>
-          <p className="villa-details-table-dummy-border"></p>
+          <p className="villa-details-table-dummy-border"></p> */}
           <section>
-            <p>Price Per Share</p>
+            <p>Property Value</p>
             <p className="villa-details-table-value">
-              {propertyData.perSharePrice || "---"}
+              {propertyData.rentPrice || "---"}
             </p>
           </section>
         </div>
@@ -95,9 +95,9 @@ const RealEstatePreviewPage = ({
                 <th scope="col">Seller Type</th>
                 <th scope="col">Seller Name</th>
                 <th scope="col">Posted On</th>
-                <th scope="col">Total Shares</th>
-                <th scope="col">Available Shares</th>
-                <th scope="col">Price Per Share</th>
+                {/* <th scope="col">Total Shares</th> */}
+                {/* <th scope="col">Available Shares</th> */}
+                {/* <th scope="col">Price Per Share</th> */}
               </tr>
             </thead>
             <tbody>
@@ -106,20 +106,22 @@ const RealEstatePreviewPage = ({
                   {propertyData.sellerType || "---"}
                 </td>
                 <td propertyData-label="Seller Type">
-                  {propertyData.sellerType || "---"}
+                  {propertyData.sellerName 
+                  
+                  || "---"}
                 </td>
                 <td propertyData-label="Posted On">
                   {propertyData.postedOn || "---"}
                 </td>
-                <td propertyData-label="Total Shares">
+                {/* <td propertyData-label="Total Shares">
                   {propertyData.totalShares || "---"}
-                </td>
-                <td propertyData-label="Available Shares">
+                </td> */}
+                {/* <td propertyData-label="Available Shares">
                   {propertyData.availableShares || "---"}
-                </td>
-                <td propertyData-label="Price Per Share">
+                </td> */}
+                {/* <td propertyData-label="Price Per Share">
                   {propertyData.perSharePrice || "---"}
-                </td>
+                </td> */}
               </tr>
             </tbody>
           </table>

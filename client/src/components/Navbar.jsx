@@ -99,10 +99,10 @@ const Navbar = ({ auth, setAuth, name, setName }) => {
             onClick={() => navigate("/")}
             className="text-lg cursor-pointer -mt-1.5"
           >
-            <span className="text-2xl text-cyan-500 font-serif">D</span>
-            <span className="font-serif">uo</span>
-            <span className="text-xl text-cyan-500 font-serif">F</span>
-            <span className="font-serif">raction</span>
+            <span className="text-2xl text-cyan-500 font-serif">M</span>
+            <span className="font-serif">agic</span>
+            <span className="text-xl text-cyan-500 font-serif">B</span>
+            <span className="font-serif">ricks</span>
           </h1>
           <div className="hidden md:flex items-center space-x-5">
             <div className="relative z-10">
@@ -152,7 +152,7 @@ const Navbar = ({ auth, setAuth, name, setName }) => {
                 >
                   Real Estate
                 </li>
-                {categories
+                {/* {categories
                   ?.filter((i) => i.propertyType === "other")
                   .map((i) => (
                     <li
@@ -165,7 +165,7 @@ const Navbar = ({ auth, setAuth, name, setName }) => {
                     >
                       {i.name}
                     </li>
-                  ))}
+                  ))} */}
               </ul>
               <ul
                 onMouseEnter={() => {

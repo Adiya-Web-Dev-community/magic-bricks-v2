@@ -327,7 +327,7 @@ const PropertyDetails = ({ propertyData, setPropertyData }) => {
           onChange={handleInputs}
         />
       ) : null}
-      {!rentStatus ? (
+      {/* {!rentStatus ? (
         <TextField
           size="small"
           spellCheck="false"
@@ -380,7 +380,17 @@ const PropertyDetails = ({ propertyData, setPropertyData }) => {
           value={propertyData.rentPrice}
           onChange={handleInputs}
         />
-      ) : null}
+      ) : null} */}
+      <TextField
+        size="small"
+        spellCheck="false"
+        id="rentPrice"
+        name="rentPrice"
+        label={<span className="text-slate-700">Price</span>}
+        helperText="Enter rent price"
+        value={propertyData.rentPrice}
+        onChange={handleInputs}
+      />
     </form>
   );
 };

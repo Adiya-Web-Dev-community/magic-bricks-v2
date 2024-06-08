@@ -12,7 +12,7 @@ const TermsConditions = () => {
               className="underline text-blue-500"
               href="http://stake-client.vercel.app"
             >
-              duofraction.com
+              magicbricks.com
             </a>{" "}
             (“our site”). These website terms of use apply to all users of, and
             visitors to, our site.
@@ -24,14 +24,14 @@ const TermsConditions = () => {
             refrain from using our site immediately.
           </p>
           <p>
-            Our site is operated by DuoFraction Properties Limited (“we or us”),
-            with the registered number 4082 whose registered office is at Office
-            1, Side B Level 1, Gate Avenue - South Zone, Dubai International
-            Financial Center, PO Box 507211, Dubai, United Arab Emirates. We are
-            authorised and regulated by Dubai Financial Services Authority
-            (DFSA) for the purpose of Operating a Crowdfunding Platformoperating
-            a Property Investment Crowdfunding Platform under the DFSA
-            registration numbers F005879.
+            Our site is operated by Magic Bricks Properties Limited (“we or
+            us”), with the registered number 4082 whose registered office is at
+            Office 1, Side B Level 1, Gate Avenue - South Zone, Dubai
+            International Financial Center, PO Box 507211, Dubai, United Arab
+            Emirates. We are authorised and regulated by Dubai Financial
+            Services Authority (DFSA) for the purpose of Operating a
+            Crowdfunding Platformoperating a Property Investment Crowdfunding
+            Platform under the DFSA registration numbers F005879.
           </p>
           <p>
             We reserve the right to modify or amend these website terms of use,

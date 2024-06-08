@@ -45,7 +45,7 @@ const Footer = () => {
               onClick={() => setOpenDuoFraction(!openDuoFraction)}
               className="flex items-center justify-between"
             >
-              <span>DuoFraction</span>
+              <span>MagicBricks</span>
               <span
                 className={`border border-slate-500 p-px rounded-full inline md:hidden`}
               >
@@ -168,13 +168,13 @@ const Footer = () => {
         </section>
         <div className="h-px bg-slate-700"></div>
         <p className="text-slate-500 text-xs">
-          DuoFraction Properties Limited (DuoFraction) is regulated by the Dubai
+          MagicBricks Properties Limited (MagicBricks) is regulated by the Dubai
           Financial Services Authority (DFSA) as an Operator of a Property
-          Investment Crowdfunding Platform. The DuoFraction platform consists of
-          the website, web platform and mobile app. By using DuoFraction, you
+          Investment Crowdfunding Platform. The MagicBricks platform consists of
+          the website, web platform and mobile app. By using MagicBricks, you
           agree to be bound by the Terms & Conditions, Cookie Notice and Privacy
-          Policy. All investments through DuoFraction carry risk and are not
-          guaranteed. Please read Key Risks before investing. DuoFraction
+          Policy. All investments through MagicBricks carry risk and are not
+          guaranteed. Please read Key Risks before investing. MagicBricks
           Properties Limited does not have Islamic Finance endorsement from the
           DFSA.
         </p>
